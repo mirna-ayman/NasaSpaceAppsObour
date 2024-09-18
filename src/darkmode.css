@@ -1,0 +1,23 @@
+body.dark-mode {
+    --bs-bg: #121212;
+    --bs-text: #e0e0e0;
+    --bs-header-bg: #1e1e1e;
+    --bs-header-text: #e0e0e0;
+    --bs-card-bg: #1e1e1e;
+    --bs-card-text: #e0e0e0;
+    --bs-footer-bg: #1e1e1e;
+    --bs-footer-text: #e0e0e0;
+    --bs-link: #1e90ff;
+    --bs-link-hover: #1c86ee;
+}
+section.dark-mode{
+    background-color: var(--bs-header-bg);
+}
+
+section.dark-mode div p{
+    color: var(--bs-header-text);
+}
+.list-group .dark-mode{
+    background-color: var(--bs-card-bg) ;
+    color: var(--bs-text);
+}

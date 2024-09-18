@@ -1,0 +1,63 @@
+.challenge{
+    position: relative;
+     min-height: 700px; 
+     width: 100%;
+     padding: 20px;
+    }
+    .challenge h2{
+        letter-spacing: 5px;
+        word-spacing: 7px;
+        text-transform: capitalize;
+        margin-top: 6%;
+    }
+    .chall{
+        color: white;
+    }
+    .chall:hover,
+    .card-title:hover{
+        color:#7a3336;
+        font-size: xx-large;
+        transition: 0.6s;
+        transform: scale(1.2);
+    }
+    .challengep{
+        font-size: large;
+    }
+    .challenge img{
+        position: absolute;
+        top: 0;
+        left: 0;
+        z-index: -1;
+    }
+    .card-title{
+        color: white;
+        padding: 10px;
+    }
+    .card-body{
+        color: white;
+        font-weight: bold;
+        padding: 10px;
+    }
+    .cards{
+        display: flex;
+        justify-content: space-evenly;
+        padding: 40px 20px;
+    }
+    .cardv{
+        width: 21rem;
+        height: 10rem;
+        border-radius: 25%;
+        padding: 10px;
+    }
+    .card{
+        width: 23rem;
+        height: 20rem;
+        background-color: transparent;
+        border: 3px white solid;
+        border-radius: 25%;
+        padding: 7px;
+    }
+    .card:hover{
+        transition: all 0.6s;
+        transform: scale(1.2);
+        }
